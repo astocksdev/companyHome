@@ -5,7 +5,7 @@
 
 .site-header__wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #28C785;
     position: fixed;
@@ -35,6 +35,10 @@
       color: white;
       text-decoration: none;
       padding: 0 20px;
+  }
+
+  a:hover {
+      color: #745238;
   }
 
   img {
@@ -123,4 +127,5 @@ footer {
     background-color: #28C785;
     color: white;
     padding-left: 40px;
+    font-family: 'Roboto', sans-serif;
 }
