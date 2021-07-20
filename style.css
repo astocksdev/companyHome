@@ -12,6 +12,21 @@
     width: 100%;
   }
 
+  h1{
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900px;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+  }
+
   .nav {
       color: white;
   }
@@ -24,9 +39,11 @@
 
   img {
       width: 200px;
+      margin-top: 15px;
       height: auto;
       border-radius: 5px;
   }
+
 
   .home {
       background-image: url("images/surf.jpg");
@@ -41,7 +58,9 @@
      color: white;
      font-size: 32px;
      text-align: center;
+     text-shadow: 2px 4px 3px rgba(0,0,0,0.3)
   }
+
 
   .products{
       display: flex;
@@ -54,13 +73,31 @@
       padding: 200px 0;
   }
 
+
   .prod {
       margin: 50px;
       border-radius: 5px;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       padding: 20px;
       background-color: white;
+      text-align: center;
   }
+
+.prod h1 {
+    color: #28C785;
+}
+
+.prod h2 {
+    color: #745238;
+}
+
+.staff h1 {
+    color: #28C785;
+}
+
+.staff h2 {
+    color: #745238;
+}
 
   .staffMem {
     display: flex;
@@ -79,4 +116,11 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
     background-color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #28C785;
+    color: white;
+    padding-left: 40px;
 }
